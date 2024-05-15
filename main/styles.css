@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,300;1,400;1,500;1,600&display=swap');
+
+
+:root{
+    --yellow:#f9d806;
+    --light-yellow:#ffee80;
+    --black:#130f40;
+    --light-color:#666;
+    --border:.1rem solid rgba(0,0,0,.1);
+    --box-shadow:0 .5rem rgba(0,0,0,.1);
+}
+
+*{
+font-family: 'poppins', sans-serif;
+margin:0; padding:0;
+box-sizing: border-box;
+outline: none; border:none;
+text-decoration: none;
+text-transform: capitalize;
+transition: all .2s linear;
+}
+header {
+    background-color: #333; /* Background color of the header */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding around the content */
+    display: flex; /* Flex layout for easier alignment */
+    justify-content: space-between; /* Align content to the sides */
+    align-items: center; /* Center items vertically */
+    border-radius: 20px;
+}
+
+/* Logo Styles */
+header img {
+    height: 50px; /* Set height of the logo */
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-left: 20px; /* Add space between list items */
+}
+
+nav ul li:first-child {
+    margin-left: 0; /* Remove margin from the first list item */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+
+
+body {
+    background-color: silver;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#details {
+    display: grid;
+    flex-wrap: wrap;
+    gap: 0px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+
+.car-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 0px;
+}
+
+.image img {
+    width: 300px;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+    background-color: white;
+    margin-left: 0px;
+    width: 300px;
+    height: 200px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border:1px solid black; 
+}
+
+.car-name {
+    margin: 20px 20px 10px;
+    font-size: 24px;
+    color: black;
+    
+}
+
+.year, .price {
+    margin: 10px 20px 10px;
+}
+
+.description {
+    margin-top: 0px;
+    text-align: justify;
+    margin-bottom: 20px;
+    max-width: 600px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+}
+.description h2{
+    text-align: center;
+    padding: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+
+}
+.description p{
+    margin: 10px;
+    margin-top: 0px;
+}
+
+form {
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #666;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* About Section */
+#about {
+    background-color: #ddd;
+    padding: 50px 0;
+}
+
+#about .container {
+    text-align: center;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 0; /* Remove default margin */
+}

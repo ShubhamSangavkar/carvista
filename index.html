@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Vista</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div><img src="img/logo.png" alt="logo"></div>
+        <div id="search-container">
+            <input type="text" id="searchInput" placeholder="Search cars...">
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Review</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+              
+        
+        <section class="vehicles" id="vehicles">
+
+
+            <h1 class="heading"> popular <span>vehicles</span></h1>
+        </section>
+
+        <div class="cars" id="car-list">
+        <div class="car">
+            <img src="img/thar.jpeg" alt="mahindra thar">
+            <h2>Mahindra Thar</h2>
+            <p>Year: 2022</p>
+            <p>Price: 11.25 lakh</p>
+            <button onclick="viewDetails('main/thar_details.html')">View Details</button>
+        </div>
+        <div class="car">
+            <img src="img/safari.png" alt="safari">
+            <h2>Tata Safari</h2>
+            <p>Year: 2022</p>
+            <p>Price: 16.19 lakh</p>
+            <button onclick="viewDetails('main/tata safari.html')">View Details</button>
+        </div>
+        <div class="car">
+            <img src="img/accord honda.jpg" alt="Accord">
+            <h2>Honda Accord</h2>
+            <p>Year: 2022</p>
+            <p>Price: 44.28 lakh</p>
+            <button onclick="viewDetails('main/honda accord.html')">View Details</button>
+        </div>
+        <div class="car">
+            <img src="img/LandCruiser.jpeg" alt="landcruiser">
+            <h2>Toyoto Landcruiser</h2>
+            <p>Year: 2022</p>
+            <p>Price: 2.10 Cr</p>
+            <button onclick="viewDetails('main/land cruiser_details.html')">View Details</button>
+        </div>
+        <div class="car">
+            <img src="img/raptor.jpeg" alt="ranger">
+            <h2>Ford Raptor</h2>
+            <p>Year: 2022</p>
+            <p>Price: 1.00 Cr</p>
+            <button onclick="viewDetails('main/raptor_details.html')">View Details</button>
+        </div>
+
+        <!--other 25-->
+        <div class="car">
+            <img src="img/alcazar.png" alt="alcazar">
+            <h2>hyundai Alcazar</h2>
+            <p>Year: 2022</p>
+            <p>Price: 16.75 lakh</p>
+            <button onclick="viewDetails('main/hyundai alcazar.html')">View Details</button>
+        </div>
+
+        <div class="car">
+            <img src="img/venue.png" alt="venue">
+            <h2>hyundai Venue</h2>
+            <p>Year: 2022</p>
+            <p>Price: 7.75 lakh</p>
+            <button onclick="viewDetails('main/hyundai venue.html')">View Details</button>
+        </div>
+
+        <div class="car">
+            <img src="img/creta.png" alt="creta">
+            <h2>Hyundai Creta</h2>
+            <p>Year: 2022</p>
+            <p>Price: 11 lakh</p>
+            <button onclick="viewDetails('main/hyundai creta.html')">View Details</button>
+        </div>
+       
+        <div class="car">
+            <img src="img/i10.png" alt="i10">
+            <h2>Hyundai Grand i10</h2>
+            <p>Year: 2022</p>
+            <p>Price: 5.92 lakh</p>
+            <button onclick="viewDetails('main/hyundai i10.html')">View Details</button>
+        </div>
+       
+        <div class="car">
+            <img src="img/i20.png" alt="i20">
+            <h2>Hyundai I20</h2>
+            <p>Year: 2022</p>
+            <p>Price: 7.64 lakh</p>
+            <button onclick="viewDetails('main/hyundai i20.html')">View Details</button>
+        </div>
+       
+        <div class="car">
+            <img src="img/altroz.png" alt="altroz">
+            <h2>Tata Altroz</h2>
+            <p>Year: 2022</p>
+            <p>Price: 6.65 lakh</p>
+            <button onclick="viewDetails('main/Tata altroz.html')">View Details</button>
+        </div>
+       
+        <div class="car">
+            <img src="img/harrier.png" alt="harrier">
+            <h2>Tata Harrier</h2>
+            <p>Year: 2022</p>
+            <p>Price: 15.49 lakh</p>
+            <button onclick="viewDetails('main/Tata harrier.html')">View Details</button>
+        </div>
+       
+        <div class="car">
+            <img src="img/nexon.png" alt="nexon">
+            <h2>Tata Nexon</h2>
+            <p>Year: 2022</p>
+            <p>Price: 8.15 lakh</p>
+            <button onclick="viewDetails('main/tata nexon.html')">View Details</button>
+        </div>
+       
+        <div class="car">
+            <img src="img/tiago.png" alt="venue">
+            <h2>Tata Tiago</h2>
+            <p>Year: 2022</p>
+            <p>Price: 5.69 lakh</p>
+            <button onclick="viewDetails('main/Tata tiago.html')">View Details</button>
+        </div>
+       
+        <div class="car">
+            <img src="img/honda city.jpg" alt="city">
+            <h2>Honda City</h2>
+            <p>Year: 2022</p>
+            <p>Price: 11.82 lakh</p>
+            <button onclick="viewDetails('main/honda city.html')">View Details</button>
+        </div>
+       
+        <div class="car">
+            <img src="img/honda civik.jpeg" alt="civik">
+            <h2>Honda Civik</h2>
+            <p>Year: 2022</p>
+            <p>Price: 18.24 lakh</p>
+            <button onclick="viewDetails('main/honda civic.html')">View Details</button>
+        </div>
+       
+        <div class="car">
+            <img src="img/honda elevate.jpg" alt="elevate">
+            <h2>Honda Elevate</h2>
+            <p>Year: 2022</p>
+            <p>Price: 11.73 lakh</p>
+            <button onclick="viewDetails('main/honda elevate.html')">View Details</button>
+        </div>
+       
+        <div class="car">
+            <img src="img/honda jazz.jpg" alt="jazz">
+            <h2>Honda Jazz</h2>
+            <p>Year: 2022</p>
+            <p>Price: 8.11 lakh</p>
+            <button onclick="viewDetails('main/honda jazz.html')">View Details</button>
+        </div>
+       
+        <div class="car">
+            <img src="img/bolero.jpeg" alt="bolero">
+            <h2>Mahindra Bolero</h2>
+            <p>Year: 2022</p>
+            <p>Price: 11.80 lakh</p>
+            <button onclick="viewDetails('main/bolero_details.html')">View Details</button>
+        </div>
+       
+        <div class="car">
+            <img src="img/scorpio.jpeg" alt="bolero">
+            <h2>Mahindra Scorpio</h2>
+            <p>Year: 2022</p>
+            <p>Price: 16.59 lakh</p>
+            <button onclick="viewDetails('main/scorpio_details.html')">View Details</button>
+        </div>
+       
+        <div class="car">
+            <img src="img/scorpioN.jpeg" alt="bolero">
+            <h2>Mahindra ScorpioN</h2>
+            <p>Year: 2022</p>
+            <p>Price: 13.60 lakh</p>
+            <button onclick="viewDetails('main/scorpioN_details.html')">View Details</button>
+        </div>
+       
+        <div class="car">
+            <img src="img/xuv700.jpeg" alt="bolero">
+            <h2>Mahindra XUV700</h2>
+            <p>Year: 2022</p>
+            <p>Price: 13.99 lakh</p>
+            <button onclick="viewDetails('main/XUV700_details.html')">View Details</button>
+        </div>
+       
+        <div class="car">
+            <img src="img/4runner.jpg" alt="4runner">
+            <h2>Toyota 4Runner</h2>
+            <p>Year: 2022</p>
+            <p>Price: 32.72 lakh</p>
+            <button onclick="viewDetails('main/4runner_details.html')">View Details</button>
+        </div>
+       
+        <div class="car">
+            <img src="img/fortuner.jpeg" alt="fortuner">
+            <h2>Toyota Fortuner</h2>
+            <p>Year: 2022</p>
+            <p>Price: 40.40 lakh</p>
+            <button onclick="viewDetails('main/fortuner_details.html')">View Details</button>
+        </div>
+       
+        <div class="car">
+            <img src="img/GR_yaris.jpeg" alt="GR_yaris">
+            <h2>Toyota GR_yaris</h2>
+            <p>Year: 2022</p>
+            <p>Price: 16.00 lakh</p>
+            <button onclick="viewDetails('main/gr yaris_details.html')">View Details</button>
+        </div>
+       
+        <div class="car">
+            <img src="img/supra.jpeg" alt="supra">
+            <h2>Toyota Supra</h2>
+            <p>Year: 2022</p>
+            <p>Price: 85.00 lakh</p>
+            <button onclick="viewDetails('main/Supra_details.html')">View Details</button>
+        </div>
+       
+        <div class="car">
+            <img src="img/everest.jpeg" alt="everest">
+            <h2>Ford Everest</h2>
+            <p>Year: 2022</p>
+            <p>Price: 50 lakh</p>
+            <button onclick="viewDetails('main/Everest_details.html')">View Details</button>
+        </div>
+       
+        <div class="car">
+            <img src="img/focus.jpeg" alt="Focus">
+            <h2>Ford Focus</h2>
+            <p>Year: 2022</p>
+            <p>Price: 9.00 lakh</p>
+            <button onclick="viewDetails('main/Focus_details.html')">View Details</button>
+        </div>
+       
+        <div class="car">
+            <img src="img/puma'.jpg" alt="Puma">
+            <h2>Ford Puma</h2>
+            <p>Year: 2022</p>
+            <p>Price: 21.00 lakh</p>
+            <button onclick="viewDetails('main/Puma_details.html')">View Details</button>
+        </div>
+       
+        <div class="car">
+            <img src="img/ranger.jpeg" alt="Ranger">
+            <h2>Ford Ranger</h2>
+            <p>Year: 2022</p>
+            <p>Price: 75.00 lakh</p>
+            <button onclick="viewDetails('main/Everest_details.html')">View Details</button>
+        </div>
+       
+      
+    </div>
+
+
+
+
+
+
+
+    <!-- brands -->
+    <section class="vehicles" id="vehicles">
+
+
+        <h1 class="heading"> popular <span>brands</span></h1>
+    </section>
+    <div id="comp">
+         <button onclick="viewDetails('hyundai.html')" class="com" style="background-image: url('img/hyundai.jpg');"></button>
+         <button onclick="viewDetails('tata.html')" class="com" style="background-image: url('img/tata.jpg');"></button>
+         <button onclick="viewDetails('mahindra.html')" class="com" style="background-image: url('img/mahindra.jpg');"></button>
+         <button onclick="viewDetails('honda.html')" class="com" style="background-image: url('img/honda.jpg');"></button>
+         <button onclick="viewDetails('toyota.html')" class="com" style="background-image: url('img/toyota.jpg');"></button>
+         <button onclick="viewDetails('ford.html')" class="com" style="background-image: url('img/ford.jpg');"></button>
+    </div>
+
+    <section class="icons-container">
+    
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>All car</h3>
+                <p>Brands</p>
+            </div>
+        </div>
+    
+        <div class="icons">
+            <i class="fas fa-users"></i>
+            <div class="content">
+                <h3>Customer </h3>
+                <p>Friendly Service</p>
+            </div>
+        </div>
+    
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>Variety</h3>
+                <p>Of New Cars</p>
+            </div>
+        </div>
+    
+    </section>
+    
+
+
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Car Vista</p>
+        </div>
+    </footer>
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to Car Inventory, your trusted destination for finding the perfect vehicle for your needs. At Car Inventory, we strive to provide a seamless and enjoyable car-buying experience for every customer.</p>
+            <h3>Our Mission</h3>  
+            <p>Our mission is to simplify the process of buying a car by offering a wide selection of quality vehicles, transparent pricing, and exceptional customer service. We aim to be your go-to destination for all your automotive needs.</p>
+            <h3>What We Offer</h3>
+            <p>Extensive Inventory: We offer a diverse selection of cars, trucks, and SUVs from top brands to suit every budget and preference.</p>
+            <p>Transparent Pricing: We believe in transparency and honesty, which is why we provide upfront pricing and detailed vehicle information to help you make informed decisions.</p>
+            <p>Exceptional Customer Service: Your satisfaction is our top priority. Our friendly and experienced team is committed to providing personalized assistance and answering any questions you may have.</p> 
+            <p>Convenient Financing Options: We work with reputable lenders to offer competitive financing options tailored to your individual needs. Whether you have good credit, bad credit, or no credit, we're here to help you get behind the wheel of your dream car.</p>
+        </div>
+    </section>
+    
+    <script src="js/script.js"></script>
+  </body>
+</html>

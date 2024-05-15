@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiago Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div><img src="../img/logo.png" alt="logo"></div>
+        <div><h1>Car Details</h1></div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Review</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="details">
+        <div class="car-details">
+            <div class="image">
+                <img src="img/tiago.png" alt="Tata Tiago">
+            </div>
+            <div class="info">
+                <h2 class="car-name">Tata Tiago</h2>
+                <p class="year">Year: 2024</p>
+                <p class="price" style="font-size: 30px;"> Rs.5,65,000/- Onwards</p>
+            </div>
+        </div>
+        <div class="description">
+        <h2>Description</h2><br>
+        <p>The price of Tata Tiago, a 5 seater Hatchback, ranges from Rs. 5.65 - 8.90 Lakh. It is available in 20 variants, with an engine of 1199 cc and a choice of 2 transmissions: Manual and Automatic. Tiago has an NCAP rating of 4 stars and comes with 2 airbags. Tata Tiago has a ground clearance of 170 mm and is available in 6 colours. Users have reported a mileage of 19 to 28.06 kmpl for Tiago..</p>
+        </div>
+        </div><br>
+        <form id="order-form">
+            <h2>Buy Now</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="Number">Mobile Number:</label>
+            <input type="text" id="number" name="number" required>
+            <label for="Email">Email:</label>
+            <input type="text" id="Email" name="Email" required>
+            <label for="name">Location:</label>
+            <input type="text" id="location" name="locatiom" required>
+            <label for="pincode">Pincode:</label>
+            <input type="text" id=Pincode" name="Pincode" required>
+
+            <button type="submit" onclick="viewDetails('buy.html')">Purchase</button>
+        </form>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Car Vista</p>
+        </div>
+    </footer>
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to Car Inventory, your trusted destination for finding the perfect vehicle for your needs. At Car Inventory, we strive to provide a seamless and enjoyable car-buying experience for every customer.</p>
+            <h3>Our Mission</h3>  
+            <p>Our mission is to simplify the process of buying a car by offering a wide selection of quality vehicles, transparent pricing, and exceptional customer service. We aim to be your go-to destination for all your automotive needs.</p>
+            <h3>What We Offer</h3>
+            <p>Extensive Inventory: We offer a diverse selection of cars, trucks, and SUVs from top brands to suit every budget and preference.</p>
+            <p>Transparent Pricing: We believe in transparency and honesty, which is why we provide upfront pricing and detailed vehicle information to help you make informed decisions.</p>
+            <p>Exceptional Customer Service: Your satisfaction is our top priority. Our friendly and experienced team is committed to providing personalized assistance and answering any questions you may have.</p> 
+            <p>Convenient Financing Options: We work with reputable lenders to offer competitive financing options tailored to your individual needs. Whether you have good credit, bad credit, or no credit, we're here to help you get behind the wheel of your dream car.</p>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
